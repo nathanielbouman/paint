@@ -1,0 +1,58 @@
+Paint release notes v0.04
+Author: Nathaniel Bouman	Date: 11/15/16
+
+New Features
+ - Has selection function
+   o A selection can be made on the image, and then moved to another location on the image.
+ - Has undo and redo functions
+ - Removed buttons for functions that do not exist.
+
+Old Features
+ - Has freedraw function.
+   o Width can be selected with slider; also works with colors.
+ - Has a toolbar.
+   o Toolbar has buttons for selecting a color for each mouse button with a color chooser.
+   o Toolbar has buttons for selecting different shapes to draw.
+ - Line shape can be drawn by clicking and dragging on image.
+   o Preview is shown during drag.
+   o Line width can be selected.
+   o Line color is that specified for the mouse button used.
+ - Edits are saved.
+ - Has a menu bar.
+ - From file option in menu bar, can:
+   o Use load option to start file picker.
+   o Use save as option to save file.
+   o Use close option to close the program.
+ - From edit option in menu bar, can:
+   o Simulate something being done on the image.
+ - File picker can:
+   o Limit to only opening images.
+   o Display a preview of selected image.
+ - Program displays loaded image in main area of window.
+ - Save process can:
+   o Use file picker to navigate to save location.
+   o Choose between png, gif, and jpg file types using extension within file picker.
+   o Catch errors with file path, type, etc.
+ - Closing can be accomplished from both a menu option and the window button
+   o Knows if image has been saved recently and prompts for a save option if not saved.
+   o Option to cancel the exiting of the program.
+ - Window title shows path of file, if the image is unsaved.
+
+
+Future Plans (Not including next assignment… just with this stuff)
+ - Include option to save without file picker, just using path file was loaded from, or the last path the file was saved to.
+ - Include option to close the picture (show nothing) without closing the entire program.
+ - Accelerators (Alt + key) for the menu options.
+ - Include options for dashed lines and such.
+ - Change width option from slider to something else - more exact input that way.
+ - Add icons for different shapes and options instead of text.
+
+
+Known Issues
+ - The window still can be sized to very small sizes… would like to limit how large and small the user can resize the window.
+ - Sometimes images are too large for the window. Would like to deal with that… possibly scale them down to fit the window… and then add some sort of zooming feature. And some sort of scrolling feature.
+ - Drawing off of the image is shown in preview... not of critical importance to fix.
+ - Would like the toolbar layout to improve.
+ - Freedraw doesn't start until mouse is dragged... would like to have it start with mouse click.
+ - Selection throws errors when mouse is moved out of bounds. However, the program does not crash. A new, proper 
+selection can be made and it will work as expected.
