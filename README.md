@@ -1,2 +1,2 @@
 # Paint
-A paint-like application project from CS250 for image editing. Written in Java with Netbeans using the Swing GUI library.
+A paint-like application project from CS250 Object Oriented Programming for image editing. Written in Java with Netbeans using the Swing GUI library.
